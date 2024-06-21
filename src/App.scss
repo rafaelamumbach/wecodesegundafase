@@ -1,38 +1,87 @@
 .App {
-  text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+    background-color: #b11b26;
+    width: Fixed (1, 920px)px;
+    height: Hug (119px)px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 10px;
+    padding: 0 20px;
+    opacity: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hd1 {
+    font-size: 14px;
+    line-height: 19.07px;
+    text-align: left;
+    margin: 0;
+    font-weight: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.localizacao {
+    font-size: 14px;
+    line-height: 19.07px;
+    text-align: left;
+    margin-right: 10px;
+    text-decoration: underline;
+    font-weight: normal;
 }
 
-.App-link {
-  color: #61dafb;
+.alterar {
+    font-size: 14px;
+    line-height: 19.07px;
+    text-align: left;
+    margin: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Logo {
+    width: 136px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.Logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.opcoes {
+    background-color: #F3AA9B;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.outlet {
+    cursor: pointer;
+}
+
+.produtos {
+    width: Fill (1, 405px)px;
+    height: Hug (19px)px;
+    gap: 40px;
+    opacity: 1000px;
+    cursor: pointer;
+    margin-left: 8%;
+}
+
+.lancamentos {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: right;
+    cursor: pointer;
+    margin-right: 3%;
 }
